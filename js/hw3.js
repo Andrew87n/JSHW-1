@@ -6,10 +6,10 @@ console.log(email.includes("@"));
 const emailLength = email.length;
 console.log(emailLength);
 
-const wordOne = "My";
-const wordTwo = "name";
-const wordThree = "is";
-const fullName = "My " + "name " + "is " + "Viktor";
+const wordOne = "My ";
+const wordTwo = "name ";
+const wordThree = "is ";
+const fullName = wordOne + wordTwo + wordThree + "Viktor";
 console.log(fullName);
 
 const userName = "Андрій";
