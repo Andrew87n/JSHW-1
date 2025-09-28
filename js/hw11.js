@@ -57,19 +57,17 @@
 // }
 // console.log(user.login("user@gmail", "Max123"));
 
-//Створіть об'єкт "bankAccount" з властивостями "ownerName", "accountNumber", "balance". Додайте до об'єкту метод "deposit", який дозволяє додавати гроші на рахунок, та метод "withdraw", який дозволяє знімати гроші з рахунку. Використайте cofirm() щоб поповнити рахунок або отримати готівку та prompt() щоб дізнатися сумму. Після проведення операції виводити повідомлення про залишок на рахунку. 
-
-const movie = {
-    title: "Max movie",
-    director: "Max",
-    Year: "2026",
-    Rating: 10,
-    goodRating () {
-        if (this.Rating >= 8){
-            return true
-        } else {
-            return false
-        }
-    }
-}
-console.log(movie, movie.goodRating());
+// const movie = {
+//     title: "Max movie",
+//     director: "Max",
+//     Year: "2026",
+//     Rating: 10,
+//     goodRating () {
+//         if (this.Rating >= 8){
+//             return true
+//         } else {
+//             return false
+//         }
+//     }
+// }
+// console.log(movie, movie.goodRating());
