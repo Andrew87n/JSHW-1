@@ -8,8 +8,9 @@ const bankAccount = {
     withdraw (cash) {
         if (cash > this.balance){
              alert("Недостатньо грошей");
-        }
+        } else {
         alert(`На рахунку ${this.balance -= cash} грн`);
+        }
     }
 }
 if (confirm("Ви хочете поповнити рахунок?")){
